@@ -146,7 +146,7 @@ EVE_GroupMsg_EX(eventGroupMsg)
 			}
 			else
 			{
-				eve.sendMsg("上传过程中发生错误，请联系管理员或稍后再次使用此命令重试上传\n错误信息: " + put_obj_res);
+				eve.sendMsg("上传过程中发生错误，请使用 .send 联系管理员或稍后再次使用此命令重试上传\n错误信息: " + put_obj_res);
 			}
 
 		}
@@ -238,7 +238,7 @@ EVE_DiscussMsg_EX(eventDiscussMsg)
 			}
 			else
 			{
-				eve.sendMsg("上传过程中发生错误，请联系管理员或稍后再次使用此命令重试上传\n错误信息: " + put_obj_res);
+				eve.sendMsg("上传过程中发生错误，请使用 .send 联系管理员或稍后再次使用此命令重试上传\n错误信息: " + put_obj_res);
 			}
 
 		}
